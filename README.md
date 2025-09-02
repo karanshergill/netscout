@@ -165,7 +165,7 @@ Organization Name
 
 ## Usage Examples
 
-### Basic Usage (Compatible with v1.0)
+### Basic Usage
 
 ```python
 # Command line (same as v1.0)
@@ -181,7 +181,7 @@ domain_discovery = DomainDiscovery()
 results = domain_discovery.discover_domains_batch(ip_list)
 ```
 
-### Advanced Usage (New in v2.0)
+### Advanced Usage
 
 ```python
 from asntoip import ASNDiscovery, DomainDiscovery, PerformanceMetrics
